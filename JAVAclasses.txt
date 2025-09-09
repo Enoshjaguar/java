@@ -1,0 +1,211 @@
+[JAVA] 
+ CORE ----------  10 DAYS
+ ADVANCED ----- 10 DAYS
+SPRING BOOT ---- 10DAYS
+REACT 
+GIT 
+GITHUB
+COMPUTER NETWORKS
+OPERATING SYSTEM
+DBMS
+SQL
+
+DSA ------ 6 MONTHS  --------  10LPA
+                                                                            
+DAY 1    
+JAVA    -----------   PROGRAMMING LANGAUAGE
+EVEN OR ODD 
+
+CODING
+IF(NUM%2==0){
+PRINT(EVEN)
+ELSE
+PRINT(ODD)
+
+PROGRAMMING
+UNDERSTAND THE PROBLEM
+ALGORITHM
+PSEUDOCODE
+SOLUTION
+
+SYSTEM.OUT.PRINT(“HELLO WORLD”)
+0 1
+JAVAC
+
+COMPILATION
+MACHINE UNDERSTANDABLE
+HUMAN UNDERSTANDABLE
+
+
+JDK – JAVA DEVELOPMENT KIT
+
+
+                                                                       DAY – 2
+VARIABLES
+In Java, variables are containers that hold data values during the execution of a program.
+SYNTAX
+type variableName = value;
+
+EXAMPLE
+int age = 25;
+String name = "Enosh";
+
+TYPES OF VARIABLES
+Local Variables ----- declared and accessed within a method
+Instance variables --- declared inside a class and accessible throughout the claa
+DATA TYPES
+TWO TYPES 
+1) Primitive data types : 
+Data TypeSizeDefault ValueExampleRangebyte1 byte0byte b = 100;-128 to 127short2 bytes0short s = 1000;-32,768 to 32,767int4 bytes0int age = 25;-2,147,483,648 to 2,147,483,647long8 bytes0Llong phone = 9876543210L;Very large rangefloat4 bytes0.0ffloat pi = 3.14f;Up to 7 decimal digitsdouble8 bytes0.0ddouble rate = 19.99;Up to 15 decimal digitschar2 bytes'\u0000'char grade = 'A';Unicode charactersboolean1 bitfalseboolean isJavaFun = true;true/false
+Non – Primitive Data Types : 
+1) Strings
+2) Arrays
+3) Objects
+4) Classes
+
+       DAY 3
+TYPE CONVERSION
+TWO TYPES 
+1)IMPLICIT
+AUTOMATIC change of a smaller data type to a larger data type by Java compiler.
+2)EXPLICIT 
+MANUALLY converting a larger data type into a smaller data type.
+
+1. Basic Arithmetic Operators
+OperatorMeaningExample+Additiona + b-Subtractiona - b*Multiplicationa * b/Divisiona / b%Modulus (remainder)a % b
+Example:
+public class ArithmeticExample {
+    public static void main(String args[]) {
+        int a = 10;
+        int b = 3;
+
+        System.out.println("Addition: " + (a + b));       // 13
+        System.out.println("Subtraction: " + (a - b));    // 7
+        System.out.println("Multiplication: " + (a * b)); // 30
+        System.out.println("Division: " + (a / b));       // 3 (integer division)
+        System.out.println("Modulus: " + (a % b));        // 1
+    }
+}
+Note:
+* If both operands are integers, division / gives integer result.
+* If one operand is double or float, division gives decimal result.
+
+2. Arithmetic with double
+double x = 10.0;
+double y = 3.0;
+
+System.out.println(x / y); // 3.3333333333333335
+
+3. Increment and Decrement Operators
+OperatorMeaningExample++Increment by 1a++ or ++a--Decrement by 1a-- or --aDifference:
+* a++ ? post-increment (use a first, then increment)
+* ++a ? pre-increment (increment first, then use a)
+int a = 5;
+System.out.println(a++); // 5
+System.out.println(a);   // 6
+System.out.println(++a); // 7
+
+4. Operator Precedence
+* *, /, % ? higher precedence
+* +, - ? lower precedence
+* Use parentheses () to control evaluation order
+int result = 10 + 5 * 2;    // 10 + (5*2) = 20
+int result2 = (10 + 5) * 2; // (10+5)*2 = 30
+
+? Summary:
+1. + - * / % ? basic arithmetic
+2. ++ -- ? increment/decrement
+3. Precedence matters; parentheses can change order
+4. Integer division truncates decimal; use double for precise division
+
+
+       RELATIONAL OPERATORS
+Relational operators are used to check the  relation between two values that is left and right values
+
+LOGICAL OPERATORS
+& |
+Boolean a = true
+Boolean b = false
+
+
+				LOGICAL OPERATORS
+1. What are Logical Operators?
+Logical operators are used to combine or manipulate boolean values/expressions.
+They always return a boolean result (true or false).
+
+2. Logical Operators in Java
+OperatorNameMeaningExample (a=true, b=false)Result&&ANDTrue only if both are truea && bfalse``ORTrue if at least one is true!NOTReverses the boolean value!afalse
+3. Truth Tables
+AND (&&)
+aba && btruetruetruetruefalsefalsefalsetruefalsefalsefalsefalseOR (||)
+aba || btruetruetruetruefalsetruefalsetruetruefalsefalsefalseNOT (!)
+a!atruefalsefalsetrue
+4. Example Java Program
+public class LogicalOperators {
+    public static void main(String[] args) {
+        boolean a = true;
+        boolean b = false;
+
+        System.out.println("a && b: " + (a && b)); // false
+        System.out.println("a || b: " + (a || b)); // true
+        System.out.println("!a: " + (!a));         // false
+        System.out.println("!b: " + (!b));         // true
+
+        // Using with relational operators
+        int x = 10, y = 20;
+        if (x < y && y > 5) {
+            System.out.println("Both conditions are true");
+        }
+    }
+}
+Output
+a && b: false
+a || b: true
+!a: false
+!b: true
+Both conditions are true
+
+5. Key Points
+1. && ? short-circuit AND ? if first is false, second is not checked.
+2. || ? short-circuit OR ? if first is true, second is not checked.
+3. ! ? reverses the value
+CONDITIONAL STATEMENTS
+
+
+  In Java, if-else is used for decision making.
+  It allows your program to choose different paths depending on conditions (true/false).
+ Conditions are written inside parentheses () and must return a boolean (true or false).
+       
+       DAY 4
+
+       GIT 
+VERSION CONTROL SYSTEM
+1.1
+1.2---------BUG ERROR
+COMMANDS
+U --- untracked
+
+Codin 
+
+
+\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
